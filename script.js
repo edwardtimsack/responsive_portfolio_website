@@ -4,6 +4,11 @@ const searchIcon = document.querySelector('#search');
 const mobileDisplay = document.querySelector('.mobile_view')
 // const hideElement = document.querySelectorAll('#hide');
 const websiteTitle = document.querySelector('.web-title')
+const mainContent = document.querySelector('.main');
+const servicesContent = document.querySelector('.services');
+const contactMe = document.querySelector('.contact_me');
+const footerCOntent = document.querySelector('footer');
+const copyTerms = document.querySelector('.copy_terms');
 console.log(menu);
 
 const elements = [
@@ -23,6 +28,13 @@ function displayNav(){
   cancelMenu.style.display = 'right';
   searchIcon.style.display = 'none';
   menu.style.display = 'none';
+  mainContent.style.display = 'none';
+  servicesContent.style.display = 'none';
+  contactMe.style.display = 'none';
+  footerCOntent.style.display = 'none';
+  copyTerms.style.display = 'none';
+
+
 
 
 } 
@@ -33,6 +45,11 @@ function hideNav(){
   menu.style.display = 'block';
   cancelMenu.style.display = 'none'
   cancelMenu.style.color = '#939396';
+  mainContent.style.display = 'flex';
+  servicesContent.style.display = 'flex';
+  contactMe.style.display = 'flex';
+  footerCOntent.style.display = 'flex';
+  copyTerms.style.display = 'flex';
 }
 
 // // Function to hide elements and toggle icons
