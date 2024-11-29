@@ -10,8 +10,8 @@ const footer = document.querySelector('footer');
 const copyTerms = document.querySelector('.copy_terms');
 const mobile = document.querySelector('.mobile');
 console.log(menu)
-menu.addEventListener('click', displayNav);
-cancelMenu.addEventListener('click', hideNav);
+// menu.addEventListener('click', displayNav);
+// cancelMenu.addEventListener('click', hideNav);
 
 // code block 
     const searching = document.querySelector('#searching');
@@ -65,3 +65,27 @@ cancelMenu.addEventListener('click', hideNav);
     }
 // code block
 
+
+// function displayNav() {
+//     cancelMenu.style.display = 'block'
+//     menu.style.display = 'none';
+//     main.style.display = 'none';
+//     mobileDisplay.style.display = 'none';
+//     servicesContent.style.display = 'none';
+//     contactMe.style.display = 'none';
+//     footer.style.display = 'none';
+
+// }
+// function hideNav() {
+//     // header.style.display = 'none'                     
+//     menu.style.display  = 'block';
+//     footer.style.display = 'none';
+//     searchIcon.style.display = ' block'
+//     mobileDisplay.style.display = 'flex'; 
+//     cancelMenu.style.display = 'none';
+//     mainContent.style.display = 'flex';
+//     servicesContent.style.display = 'flex';
+//     contactMe.style.display = 'flex';
+//     footer.style.display = 'flex';
+//     copyTerms.style.display = 'flex';
+// }
