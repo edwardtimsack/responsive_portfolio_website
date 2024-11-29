@@ -380,14 +380,11 @@ button:hover {
 .my_services{
     display: flex;
     flex-direction: column;
-    /* flex-wrap: wrap; */
-    /* justify-content: space-between; */
     gap: 15px;
     flex-grow: 5rem;
     width: 24rem;
-    /* flex-basis: 18rem; */
     padding: 30px;
-    background-color: yellow;
+    /* background-color: yellow; */
     height: 47rem;
 }
 .box{
@@ -400,8 +397,7 @@ button:hover {
     width: 20rem;
     border-radius: 10px;
     padding: 20px 0px 0px 0px;
-    /* justify-content: center; */
-    /* border: 5px solid gold; */
+  
 }
 .box h1{
     font-size: 20px;

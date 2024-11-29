@@ -2,10 +2,11 @@ const menu = document.querySelector('#hamburger-menu');
 const cancelMenu = document.querySelector('#close-menu')
 const searchIcon = document.querySelector('#search');
 const mobileDisplay = document.querySelector('.mobile_view')
-// const hideElement = document.querySelectorAll('#hide');
 const websiteTitle = document.querySelector('.web-title')
 const mainContent = document.querySelector('.main');
 const servicesContent = document.querySelector('.services');
+const myServices = document.querySelector('.my_services');
+const services = document.querySelector('.service');
 const contactMe = document.querySelector('.contact_me');
 const footerCOntent = document.querySelector('footer');
 const copyTerms = document.querySelector('.copy_terms');
@@ -23,11 +24,15 @@ function displayNav(){
   mobileDisplay.style.display = 'flex';
   // mobileDisplay.classList.add('mobile_view')
   websiteTitle.style.display = 'none';
+  
   cancelMenu.style.display = 'block';
   cancelMenu.style.justifyContent = 'right';
   cancelMenu.style.display = 'right';
   searchIcon.style.display = 'none';
   menu.style.display = 'none';
+  myServices.style.display = 'none';
+  services.style.display = 'none';
+
   mainContent.style.display = 'none';
   servicesContent.style.display = 'none';
   contactMe.style.display = 'none';
@@ -41,8 +46,11 @@ function displayNav(){
 function hideNav(){
   websiteTitle.style.display = 'block';
   searchIcon.style.display = 'block';
-  mobileDisplay.style.display = 'flex';
+  mobileDisplay.style.display = 'none';
   menu.style.display = 'block';
+  myServices.style.display = 'flex';
+  services.style.display = 'flex';
+
   cancelMenu.style.display = 'none'
   cancelMenu.style.color = '#939396';
   mainContent.style.display = 'flex';
