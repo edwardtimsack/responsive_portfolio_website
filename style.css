@@ -91,11 +91,32 @@ a{
     flex-grow: 1;
     background-color: #222122;
     border-radius: 5px;
-    height: 25rem;
+    height: 18rem;
 }
 .box:hover{
     background-color: #e65616;
     cursor: pointer;
+}
+.box{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 5px;
+    /* height: 10rem; */
+    /* width: 20rem; */
+    border-radius: 10px;
+    padding: 20px 0px 20px 0px;
+
+}
+.box h1{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.box img{
+    width: 405px;
+    height: 250px;
 }
 footer{
     display: flex;
@@ -331,12 +352,14 @@ button:hover {
         display: flex;
         flex-direction: column;
         flex-basis: 2rem;
-        height: 65rem;
-        background-color: #222122;
-        background-color: #1F1E20;
+        /* height: 65rem; */
+        /* background-color: #222122;
+        background-color: #1F1E20; */
         gap: 30px;
         justify-content: center;
         align-items: center;
+        padding: 30px 30px 30px 30px;
+
 }
 .title{
     /* flex-grow: 1; */
@@ -357,18 +380,39 @@ button:hover {
 .my_services{
     display: flex;
     flex-direction: column;
+    /* flex-wrap: wrap; */
     /* justify-content: space-between; */
-    /* gap: 15px; */
+    gap: 15px;
     flex-grow: 5rem;
     width: 24rem;
     /* flex-basis: 18rem; */
-
-    height: 55rem;
+    padding: 30px;
+    background-color: yellow;
+    height: 47rem;
 }
 .box{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    text-align: center;
     border-radius: 5px;
-    height: 700px;
+    /* height: 10rem; */
+    width: 20rem;
+    border-radius: 10px;
+    padding: 20px 0px 0px 0px;
+    /* justify-content: center; */
     /* border: 5px solid gold; */
+}
+.box h1{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.box img{
+    width: 320px;
+    height: 160px;
+    border-radius: 0px 0px 10px 10px;
+    
 }
 .box:hover{
     background-color: #e65616;
@@ -390,7 +434,7 @@ button:hover {
 
     border-radius: 5px;
     height: 25rem;
-    width: 24rem;
+    /* width: 24rem; */
     /* padding: 60px 0px 30px 60px; */
     padding: 30px;
     /* gap: 10px; */
@@ -659,9 +703,9 @@ button:hover {
         justify-content: space-between;
         gap: 30px;
         flex-grow: 2;
-        height: 35rem;
+        height: 18rem;
         margin-top: 40px;
-        padding: 30px 50px 30px 30px;
+        padding: 0px 50px 0px 30px;
 
         /* background-color: aqua; */
     }
