@@ -41,7 +41,7 @@ function displayNav(){
 function hideNav(){
   websiteTitle.style.display = 'block';
   searchIcon.style.display = 'block';
-  mobileDisplay.style.display = 'none';
+  mobileDisplay.style.display = 'flex';
   menu.style.display = 'block';
   cancelMenu.style.display = 'none'
   cancelMenu.style.color = '#939396';

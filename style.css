@@ -11,6 +11,7 @@
 }
 header{
     background-color: #1F1E20;
+    background-color: #202020;
     display: flex;
     justify-content: space-between;
     padding: 30px;
@@ -50,7 +51,6 @@ header h1{
     font-size: 25px;
     font-weight: 700;
 }
-
 a{
     text-decoration: none;
     font-size: 17px;
@@ -114,6 +114,7 @@ footer{
     /* gap: 20px; */
     flex-grow: 1;
     height: 30rem;
+    gap: 15px;
     /* margin: 0px 0px 60px 0px; */
 
     /* background-color: red; */
@@ -356,16 +357,13 @@ button:hover {
 .my_services{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    gap: 15px;
+    /* justify-content: space-between; */
+    /* gap: 15px; */
     flex-grow: 5rem;
     width: 24rem;
     /* flex-basis: 18rem; */
 
     height: 55rem;
-    /* margin-top: 40px;  */
-    padding: 0px 15px 15px 15px;
-    /* background-color: aqua; */
 }
 .box{
     border-radius: 5px;
@@ -636,13 +634,13 @@ button:hover {
             display: flex;
             flex-direction: column;
             flex-basis: 2rem;
-            height: 40rem;
+            height: 6rem;
             background-color: #222122;
             background-color: #1F1E20;
             margin-top: 100px;
             padding: 30px 60px 30px 60px;
             background-color: #0c0c0c;
-            
+            /* background-color: red; */
     }
     .title{
         flex-grow: 1;
@@ -659,10 +657,11 @@ button:hover {
     .my_services{
         display: flex;
         justify-content: space-between;
-        gap: 35px;
+        gap: 30px;
         flex-grow: 2;
         height: 35rem;
         margin-top: 40px;
+        padding: 30px 50px 30px 30px;
 
         /* background-color: aqua; */
     }
