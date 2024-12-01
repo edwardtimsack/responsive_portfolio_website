@@ -23,7 +23,7 @@ function displayNav(){
   cancelMenu.style.display = 'right';
   searchIcon.style.display = 'none';
   menu.style.display = 'none';
-
+  console.log('hello');
 
 } 
 function hideNav(){

@@ -37,7 +37,7 @@ console.log(menu)
         contactMe.style.display = 'none'
         footer.style.display = 'none';
         copyTerms.style.display = 'none';
-
+        console.log('hello')
         // h.style.display = 'none'
         
 

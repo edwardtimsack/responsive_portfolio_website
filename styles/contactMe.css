@@ -654,10 +654,6 @@ button {
     #search{
         color: white;
     }
-    header nav{
-        /* margin-right: 40px; */
-        /* background-color: aqua; */
-    }
     .desktop_view h1{
         font-weight: 800;
         font-size: 30px;
@@ -665,7 +661,8 @@ button {
     }
     nav a{
         font-size: 15px;
-        color: #5b5b5c;
+        /* color: #5b5b5c; */
+        color: #8c8c8d;
 
     }
 }
