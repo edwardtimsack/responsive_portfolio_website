@@ -11,6 +11,7 @@ const footer = document.querySelector('footer');
 const copyTerms = document.querySelector('.copy_terms');
 const mobile = document.querySelector('.mobile');
 const desktopView = document.querySelector('.desktop_view');
+const myProfile = document.querySelector('.my_profile');
 
 const mobileView = document.querySelector('.mobile_view');
 

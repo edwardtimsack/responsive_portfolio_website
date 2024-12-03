@@ -17,6 +17,24 @@ header{
     padding: 30px;
     /* height: 100px; */
 }
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    top: 18rem;
+    right: 2rem;
+    /* background: rgba(0, 0, 0, 0.8); */
+    justify-content: center;
+    align-items: center;
+}
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 20px;
+  }
 header h1{
     color: white;
     font-weight: 600;
@@ -526,6 +544,46 @@ button:hover {
     .copy_terms p{
         font-size: 15px;
     }
+    .main{
+        display: flex;
+        flex-basis: 2rem;
+        flex-direction: column;
+        height: 42rem;
+        /* background-color: #222122; */
+        /* background-color: red; */
+    }
+    .main{
+        text-align: center;
+    }
+    .right{
+        /* background-color: darkslateblue; */
+        flex-grow: 4;
+        background-image: url(/img/profile_imgs/profile-pic.png);
+        background-size: cover; /* Ensures the image covers the container */
+        background-position: center; /* Centers the image within the container */
+        background-repeat: no-repeat;
+        /* height: 30rem; */
+    }
+    /* modal */
+    .modal{
+        display: none;
+        position: fixed;
+        z-index: 1000;
+        /* top: 30rem; */
+        /* right: 8rem; */
+        /* background: rgba(0, 0, 0, 0.8); */
+        justify-content: center;
+        align-items: center;
+        background-color: gree;
+    }
+    .modal-content {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background: #fff;
+        padding: 20px;
+        border-radius: 20px;
+      }
 }
 @media only screen and (min-width: 1000px) {
     header{
@@ -601,12 +659,10 @@ button:hover {
     .main{
         display: flex;
         flex-basis: 2rem;
-        height: 50rem;
+        height: 42rem;
         background-color: #222122;
 
         /* background-color: firebrick; */
-        padding: 20px;
-        padding: 25px 30px 25px 30px;
         padding: 30px 60px 30px 60px;
 
 
@@ -616,7 +672,7 @@ button:hover {
         flex-direction: column;
         /* background-color: aqua; */
         flex-grow: 1;
-        margin-top: 260px;
+        margin-top: 200px;
         /* gap: 5px; */
     }
     .left nav{
@@ -666,8 +722,13 @@ button:hover {
         color: white;
     }
     .right{
-        background-color: darkslateblue;
+        /* background-color: darkslateblue; */
         flex-grow: 4;
+        background-image: url(/img/profile_imgs/profile-pic.png);
+        background-size: cover; /* Ensures the image covers the container */
+        background-position: center; /* Centers the image within the container */
+        background-repeat: no-repeat;
+        /* height: 30rem; */
     }
     /* SERVICES */
     .services{

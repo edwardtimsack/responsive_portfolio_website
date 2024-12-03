@@ -488,6 +488,7 @@ button {
         font-size: 40px;
     }
     .box{
+        padding: 20px;
         /* height: 35rem; */
         /* background-color: red; */
     }
@@ -518,16 +519,14 @@ button {
     .getInTouch{
         padding: 20px;
     }
-    input,textarea{
-        /* padding: 0px; */
-        /* width: 7rem; */
-    }
+   
     footer, .left_footer, .right_footer, .site_menu, .contact_us{
         display: flex;
         flex-direction: column;
     }
     footer{
         padding: 20px;
+        text-align: center;
     }
     .left_footer{
        flex-wrap: wrap;

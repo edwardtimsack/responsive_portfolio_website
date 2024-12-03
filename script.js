@@ -60,42 +60,45 @@ function hideNav(){
   copyTerms.style.display = 'flex';
 }
 
-// // Function to hide elements and toggle icons
-// menu.addEventListener("click", () => {
-//     elements.forEach((el) => {
-//       if (el) el.classList.add("close-menu"); // Ensure the element exists
-//     });
-//     menu.classList.add("close-menu");
-//     cancelMenu.classList.remove("close-menu");
-//   });
-  
-//   // Function to show elements and toggle icons back
-//   cancelMenu.addEventListener("click", () => {
-//     elements.forEach((el) => {
-//       if (el) el.classList.remove("close-menu"); // Ensure the element exists
-//     });
-//     cancelMenu.classList.add("close-menu");
-//     menu.classList.remove("close-menu");
-//   });
-// // menu.addEventListener('click', greetUser);
-
-// // function greetUser(){
-// //     menu.style.fontSize = '100px';
-// // }
 
 
-// // Function to hide elements and toggle icons
-// // menu.addEventListener("click", () => {
-// //     menu.style.fontSize = '100px';
-// //     hideElement.forEach((el) => el.classList.add("close-menu"));
-// //     menu.classList.add("close-menu");
-// //     cancelMenu.classList.remove("close-menu");
-// //   });
-  
-// //   // Function to show elements and toggle icons back
-// //   cancelMenu.addEventListener("click", () => {
-// //     hideElement.forEach((el) => el.classList.remove("close-menu"));
-// //     cancelMenu.classList.add("close-menu");
-// //     menu.classList.remove("close-menu");
-// //   });
+// About Modal
+const profilePhoto = document.querySelector('.right');
+const modalPopUp = document.querySelector('.modal');
 
+const aboutModal = document.getElementById('about-modal');
+const closeBtn = document.querySelector('.close');
+
+profilePhoto.addEventListener('click', showModal)
+closeBtn.addEventListener('click', closeModal)
+
+
+function showModal() {
+  console.log('hello');
+  modalPopUp.style.display = 'block'
+}
+
+function closeModal() {
+  console.log('hiiiiiiii');
+  modalPopUp.style.display = 'none'
+}
+// profilePhoto.addEventListener('click', () => aboutModal.style.display = 'flex');
+// closeBtn.addEventListener('click', () => aboutModal.style.display = 'none');
+
+// Confirmation Modal
+const contactForm = document.getElementById('contact-form');
+const confirmationModal = document.getElementById('confirmation-modal');
+const confirmSubmit = document.getElementById('confirm-submit');
+const cancelSubmit = document.getElementById('cancel-submit');
+
+// contactForm.addEventListener('submit', (e) => {
+//   e.preventDefault();
+//   confirmationModal.style.display = 'flex';
+// });
+
+// confirmSubmit.addEventListener('click', () => {
+//   confirmationModal.style.display = 'none';
+//   contactForm.submit();
+// });
+
+// // cancelSubmit.addEventListener('click', () => confirmationModal.style.display = 'none');
