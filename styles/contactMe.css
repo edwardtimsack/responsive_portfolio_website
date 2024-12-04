@@ -209,7 +209,15 @@ a{
     color: white;
     flex-wrap: wrap;
     cursor: pointer;
+    transition: transform 0.3s ease; /* Smooth zoom effect */
+
+
 }
+
+.box:hover {
+  transform: scale(1.1); /* Zoom the box to 1.2 times its original size */
+}
+
 section{
     flex-wrap: nowrap;
 }
@@ -664,4 +672,5 @@ button {
         color: #8c8c8d;
 
     }
+
 }
