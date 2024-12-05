@@ -96,7 +96,7 @@ a{
     /* background-color: gold; */
 }
 .my_profile{
-    background-image: url(/img/WhatsApp\ Image\ 2024-12-01\ at\ 15.41.24.jpeg);
+    background-image: url(./img/WhatsApp\ Image\ 2024-12-01\ at\ 15.41.24.jpeg);
     background-size: cover;
      /* Ensures the image covers the container */
     background-position: center; /* Centers the image within the container */
@@ -209,7 +209,7 @@ a{
     background-color: #e65616;
 }
 #one{
-    background-image: url(/img/WhatsApp\ Image\ 2024-12-01\ at\ 15.40.53.jpeg);
+    background-image: url(./img/WhatsApp\ Image\ 2024-12-01\ at\ 15.40.53.jpeg);
     /* object-fit: cover; */
  
 }
@@ -219,38 +219,38 @@ a{
     background-repeat: no-repeat;
 }
 #two{
-    background-image: url(/img/WhatsApp\ Image\ 2024-12-01\ at\ 15.40.55.jpeg);
+    background-image: url(./img/WhatsApp\ Image\ 2024-12-01\ at\ 15.40.55.jpeg);
 }
 #three{
-    background-image: url(/img/WhatsApp\ Image\ 2024-12-01\ at\ 15.40.55\ \(1\).jpeg);
+    background-image: url(./img/WhatsApp\ Image\ 2024-12-01\ at\ 15.40.55\ \(1\).jpeg);
 }
 #four{
-    background-image: url(/img/WhatsApp\ Image\ 2024-12-01\ at\ 15.41.22.jpeg);
+    background-image: url(./img/WhatsApp\ Image\ 2024-12-01\ at\ 15.41.22.jpeg);
 }
 #five{
-    background-image: url(/img/WhatsApp\ Image\ 2024-12-01\ at\ 15.41.22\ \(1\).jpeg);
+    background-image: url(./img/WhatsApp\ Image\ 2024-12-01\ at\ 15.41.22\ \(1\).jpeg);
 }
 #six{
-    background-image: url(/img/WhatsApp\ Image\ 2024-12-01\ at\ 15.41.22\ \(2\).jpeg);
+    background-image: url(./img/WhatsApp\ Image\ 2024-12-01\ at\ 15.41.22\ \(2\).jpeg);
 }
 #seven{
-    background-image: url(/img/WhatsApp\ Image\ 2024-12-01\ at\ 15.41.24.jpeg);
+    background-image: url(./img/WhatsApp\ Image\ 2024-12-01\ at\ 15.41.24.jpeg);
 }
 #eight{
-    background-image: url(/img/WhatsApp\ Image\ 2024-12-01\ at\ 15.41.25.jpeg);
+    background-image: url(./img/WhatsApp\ Image\ 2024-12-01\ at\ 15.41.25.jpeg);
 }
 
 #nine{
-    background-image: url(/img/WhatsApp\ Image\ 2024-12-01\ at\ 18.35.25\ \(1\).jpeg);
+    background-image: url(./img/WhatsApp\ Image\ 2024-12-01\ at\ 18.35.25\ \(1\).jpeg);
 }
 #ten{
-    background-image: url(/img/WhatsApp\ Image\ 2024-12-01\ at\ 18.35.26.jpeg);
+    background-image: url(./img/WhatsApp\ Image\ 2024-12-01\ at\ 18.35.26.jpeg);
 }
 #eleven{
-    background-image: url(/img/WhatsApp\ Image\ 2024-12-01\ at\ 18.35.25\ \(2\).jpeg);
+    background-image: url(./img/WhatsApp\ Image\ 2024-12-01\ at\ 18.35.25\ \(2\).jpeg);
 }
 #twelve{
-    background-image: url(/img/WhatsApp\ Image\ 2024-12-01\ at\ 18.35.25.jpeg);
+    background-image: url(./img/WhatsApp\ Image\ 2024-12-01\ at\ 18.35.25.jpeg);
 }
 
 .skills_set{
@@ -447,9 +447,7 @@ footer{
         font-weight: 300;
         /* color: red; */
     }
-    #one{
-        /* background-image: url(/img/WhatsApp\ Image\ 2024-12-01\ at\ 15.40.53.jpeg); */
-    }
+  
     .lastest_projects{
         display: flex;
         flex-direction: column;
@@ -475,39 +473,38 @@ footer{
 
     }
     #two{
-        background-image: url(/img/WhatsApp\ Image\ 2024-12-01\ at\ 15.40.55.jpeg);
-        background-image: url(/img/WhatsApp\ Image\ 2024-12-01\ at\ 15.40.55.jpeg);
+        background-image: url(./img/WhatsApp\ Image\ 2024-12-01\ at\ 15.40.55.jpeg);
 
     }
     #three{
-        background-image: url(/img/WhatsApp\ Image\ 2024-12-01\ at\ 15.40.55\ \(1\).jpeg);
+        background-image: url(./img/WhatsApp\ Image\ 2024-12-01\ at\ 15.40.55\ \(1\).jpeg);
     }
     #four{
-        background-image: url(/img/WhatsApp\ Image\ 2024-12-01\ at\ 15.41.22.jpeg);
+        background-image: url(./img/WhatsApp\ Image\ 2024-12-01\ at\ 15.41.22.jpeg);
     }
     #five{
-        background-image: url(/img/WhatsApp\ Image\ 2024-12-01\ at\ 15.41.22\ \(1\).jpeg);
+        background-image: url(./img/WhatsApp\ Image\ 2024-12-01\ at\ 15.41.22\ \(1\).jpeg);
     }
     #six{
-        background-image: url(/img/WhatsApp\ Image\ 2024-12-01\ at\ 15.41.22\ \(2\).jpeg);
+        background-image: url(./img/WhatsApp\ Image\ 2024-12-01\ at\ 15.41.22\ \(2\).jpeg);
     }
     #seven{
-        background-image: url(/img/WhatsApp\ Image\ 2024-12-01\ at\ 15.41.24.jpeg);
+        background-image: url(./img/WhatsApp\ Image\ 2024-12-01\ at\ 15.41.24.jpeg);
     }
     #eight{
-        background-image: url(/img/WhatsApp\ Image\ 2024-12-01\ at\ 15.41.25.jpeg);
+        background-image: url(./img/WhatsApp\ Image\ 2024-12-01\ at\ 15.41.25.jpeg);
     }
     #nine{
-        background-image: url(/img/WhatsApp\ Image\ 2024-12-01\ at\ 18.35.25\ \(1\).jpeg);
+        background-image: url(./img/WhatsApp\ Image\ 2024-12-01\ at\ 18.35.25\ \(1\).jpeg);
     }
     #ten{
-        background-image: url(/img/WhatsApp\ Image\ 2024-12-01\ at\ 18.35.26.jpeg);
+        background-image: url(./img/WhatsApp\ Image\ 2024-12-01\ at\ 18.35.26.jpeg);
     }
     #eleven{
-        background-image: url(/img/WhatsApp\ Image\ 2024-12-01\ at\ 18.35.25\ \(2\).jpeg);
+        background-image: url(./img/WhatsApp\ Image\ 2024-12-01\ at\ 18.35.25\ \(2\).jpeg);
     }
     #twelve{
-        background-image: url(/img/WhatsApp\ Image\ 2024-12-01\ at\ 18.35.25.jpeg);
+        background-image: url(./img/WhatsApp\ Image\ 2024-12-01\ at\ 18.35.25.jpeg);
     }
     
     .skills_set{
