@@ -96,11 +96,10 @@ a{
     /* background-color: gold; */
 }
 .my_profile{
-    background-image: url(./img/WhatsApp\ Image\ 2024-12-01\ at\ 15.41.24.jpeg);
-    background-size: cover;
-     /* Ensures the image covers the container */
+    background-image: url(/img/WhatsApp\ Image\ 2024-12-01\ at\ 15.41.24.jpeg);
+    background-size: cover; /* Ensures the image covers the container */
     background-position: center; /* Centers the image within the container */
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     width: 20rem;
     height: 25rem;
     display: block;
@@ -108,7 +107,6 @@ a{
     margin-left: auto;
     margin-right: auto;
     border-radius: 50%;
-    /* padding-bottom: 100px; */
 }
 .about_me{
     margin-top: 40px;
@@ -207,10 +205,15 @@ a{
 }
 .my_projects div{
     background-color: #e65616;
+    border-radius: 10px;
 }
 #one{
-    background-image: url(./img/WhatsApp\ Image\ 2024-12-01\ at\ 15.40.53.jpeg);
-    /* object-fit: cover; */
+   /* background-image: url(/img/profile_imgs/profile-pic.png); */
+    background-image: url(/img/WhatsApp\ Image\ 2024-12-01\ at\ 15.40.53.jpeg);
+    background-size: cover; /* Ensures the image covers the container */
+    background-position: center; /* Centers the image within the container */
+    background-repeat: no-repeat;
+
  
 }
 .project{
@@ -219,52 +222,55 @@ a{
     background-repeat: no-repeat;
 }
 #two{
-    background-image: url(./img/WhatsApp\ Image\ 2024-12-01\ at\ 15.40.55.jpeg);
+    background-image: url(/img/WhatsApp\ Image\ 2024-12-01\ at\ 15.40.55.jpeg);
 }
 #three{
-    background-image: url(./img/WhatsApp\ Image\ 2024-12-01\ at\ 15.40.55\ \(1\).jpeg);
+    background-image: url(/img/WhatsApp\ Image\ 2024-12-01\ at\ 15.40.55\ \(1\).jpeg);
 }
 #four{
-    background-image: url(./img/WhatsApp\ Image\ 2024-12-01\ at\ 15.41.22.jpeg);
+    background-image: url(/img/WhatsApp\ Image\ 2024-12-01\ at\ 15.41.22.jpeg);
 }
 #five{
-    background-image: url(./img/WhatsApp\ Image\ 2024-12-01\ at\ 15.41.22\ \(1\).jpeg);
+    background-image: url(/img/WhatsApp\ Image\ 2024-12-01\ at\ 15.41.22\ \(1\).jpeg);
 }
 #six{
-    background-image: url(./img/WhatsApp\ Image\ 2024-12-01\ at\ 15.41.22\ \(2\).jpeg);
+    background-image: url(/img/WhatsApp\ Image\ 2024-12-01\ at\ 15.41.22\ \(2\).jpeg);
 }
 #seven{
-    background-image: url(./img/WhatsApp\ Image\ 2024-12-01\ at\ 15.41.24.jpeg);
+    background-image: url(/img/WhatsApp\ Image\ 2024-12-01\ at\ 15.41.24.jpeg);
+    
 }
 #eight{
-    background-image: url(./img/WhatsApp\ Image\ 2024-12-01\ at\ 15.41.25.jpeg);
+    background-image: url(/img/WhatsApp\ Image\ 2024-12-01\ at\ 15.41.25.jpeg);
 }
 
 #nine{
-    background-image: url(./img/WhatsApp\ Image\ 2024-12-01\ at\ 18.35.25\ \(1\).jpeg);
+    background-image: url(/img/WhatsApp\ Image\ 2024-12-01\ at\ 18.35.25\ \(1\).jpeg);
 }
 #ten{
-    background-image: url(./img/WhatsApp\ Image\ 2024-12-01\ at\ 18.35.26.jpeg);
+    background-image: url(/img/WhatsApp\ Image\ 2024-12-01\ at\ 18.35.26.jpeg);
 }
 #eleven{
-    background-image: url(./img/WhatsApp\ Image\ 2024-12-01\ at\ 18.35.25\ \(2\).jpeg);
+    background-image: url(/img/WhatsApp\ Image\ 2024-12-01\ at\ 18.35.25\ \(2\).jpeg);
 }
 #twelve{
-    background-image: url(./img/WhatsApp\ Image\ 2024-12-01\ at\ 18.35.25.jpeg);
+    background-image: url(/img/WhatsApp\ Image\ 2024-12-01\ at\ 18.35.25.jpeg);
 }
 
 .skills_set{
     display: flex;
     margin-top: 80px;
-    height: 31rem;
+    height: 35rem;
     flex-basis: 20rem;
     padding: 30px 60px 30px 60px;
     color: white;
+    /* background-color: red; */
     gap: 30px;
 }
 .skills{
     flex-grow: 2;
-    height: 27rem;
+    /* height: 28rsem; */
+    /* background-color: blue; */
 }
 .skills h1{
     margin-bottom: 50px;
@@ -307,7 +313,8 @@ a{
 .experience_set{
     flex-grow: 4;
     background-color: #e65616;
-    height: 27rem;
+    /* background-color: brown; */
+    /* height: 28rem; */
     border-radius: 20px;
 }
 footer{
@@ -461,7 +468,7 @@ footer{
         padding: 20px 20px;
     }
     .my_projects div{
-        background-color: #e65616;
+        /* background-color: #e65616; */
     }
     .project{
         background-size: cover; /* Ensures the image covers the container */
