@@ -210,7 +210,6 @@ a{
 #one{
    /* background-image: url(/img/profile_imgs/profile-pic.png); */
     background-image: url(/img/WhatsApp\ Image\ 2024-12-01\ at\ 15.40.53.jpeg);
-    background-image: url(/WhatsApp\ Image\ 2024-12-01\ at\ 15.40.53.jpeg);
     background-size: cover; /* Ensures the image covers the container */
     background-position: center; /* Centers the image within the container */
     background-repeat: no-repeat;
@@ -480,11 +479,8 @@ footer{
 
 
     }
-    #one{
-         background-image: url(/WhatsApp\ Image\ 2024-12-01\ at\ 15.40.53.jpeg);
-     }
-    #two{
-        background-image: url(./img/WhatsApp\ Image\ 2024-12-01\ at\ 15.40.55.jpeg);
+    /* #two{
+        background-image: url(/img/WhatsApp\ Image\ 2024-12-01\ at\ 15.40.55.jpeg);
 
     }
     #three{
@@ -516,7 +512,7 @@ footer{
     }
     #twelve{
         background-image: url(./img/WhatsApp\ Image\ 2024-12-01\ at\ 18.35.25.jpeg);
-    }
+    } */
     
     .skills_set{
         display: flex;
